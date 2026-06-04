@@ -7,16 +7,15 @@ first_name: Afzal
 middle_name:
 last_name: Hussain
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  The best way to reach me is by email at <a href="mailto:afzalhussain@iut-dhaka.edu">afzalhussain@iut-dhaka.edu</a>.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Research notes by Afzal Hussain on foundation models for AI-native engineering, with a focus on applications in mechanical engineering.
+  A working notebook of blog posts, paper explorations, and learning logs as the field evolves.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+  © 2026 Afzal Hussain
+keywords: foundation models, large language models, AI-native engineering, mechanical engineering, generative design, CAD, simulation, research notes
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: ⚙️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://afzalhussain23.github.io # the base hostname & protocol for your site
 baseurl: /research # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -122,8 +121,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Research Notes # blog_name will be displayed in your blog page
+blog_description: Notes on foundation models for AI-native mechanical engineering — papers, experiments, and learning in public.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
