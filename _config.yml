@@ -11,8 +11,7 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Research notes by Afzal Hussain on foundation models for AI-native engineering, with a focus on applications in mechanical engineering.
   A working notebook of blog posts, paper explorations, and learning logs as the field evolves.
-footer_text: >
-  © 2026 Afzal Hussain
+footer_text:
 keywords: foundation models, large language models, AI-native engineering, mechanical engineering, generative design, CAD, simulation, research notes
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚙️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
