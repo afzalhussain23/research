@@ -1,0 +1,27 @@
+- name: Deep Learning Specialization
+  issuer: Coursera
+  date: 2018-02-01
+  url: https://www.coursera.org/account/accomplishments/specialization/VN34GUNDG8AY
+  credential_id: VN34GUNDG8AY
+  tags: [Deep Learning, Neural Networks, TensorFlow]
+
+- name: A Hands-on Introduction to Engineering Simulations
+  issuer: edX
+  date: 2017-09-01
+  url: https://courses.edx.org/certificates/e10bf10136244c5aac4cdfb32bad4cce
+  credential_id: e10bf10136244c5aac4cdfb32bad4cce
+  tags: [Simulation, ANSYS, CFD]
+
+- name: Using Python for Research
+  issuer: edX
+  date: 2017-08-01
+  url: https://courses.edx.org/certificates/33ece83b474545b782edcce78ba11afb
+  credential_id: 33ece83b474545b782edcce78ba11afb
+  tags: [Python, Research, Data Analysis]
+
+- name: Machine Learning
+  issuer: Coursera
+  date: 2017-07-01
+  url: https://www.coursera.org/account/accomplishments/verify/B4QLTZT8XDDV
+  credential_id: B4QLTZT8XDDV
+  tags: [Machine Learning, Octave, Andrew Ng]
