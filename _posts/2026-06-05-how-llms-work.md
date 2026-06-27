@@ -29,7 +29,7 @@ Obviously this explanation is oversimplified, since delivering a ChatGPT-scale s
 So how do we get the weights? That comes from a process called "Training," and it is much more involved. Essentially, it compresses internet data into something like a zip file, but not the kind we create on our computers.
 
 - **Normal compression:** When we make a compressed file, we can extract it and get back the information exactly as it was.
-- **LLM compression:** They can't deterministically reproduce the text they were trained on. Instead, it's a *lossy compression*, where the model is asked to predict the next word in a sequence.
+- **LLM compression:** They can't deterministically reproduce the text they were trained on. Instead, it's a _lossy compression_, where the model is asked to predict the next word in a sequence.
 
 By forcing the network to solve this puzzle billions of times, it effectively "zips" the world's knowledge into its weights.
 

@@ -15,11 +15,11 @@ docker compose restart jekyll                                     # if a _config
 docker compose exec jekyll bundle exec jekyll build --baseurl /research
 docker compose exec jekyll bundle exec al-folio upgrade audit
 ```
+
 News
 Teaching
 People
 Bookself
-
 
 Host-side commands that are fine: `npm` scripts, `curl`, `git`, file edits.
 

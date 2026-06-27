@@ -35,16 +35,16 @@ For this research, I have used [OpenFOAM](https://en.wikipedia.org/wiki/OpenFOAM
 > ##### HEADS UP
 >
 > This was the most laborious part of the project — generating enough varied simulations to train on takes serious time and disk.
-{: .block-warning }
+> {: .block-warning }
 
-As deep learning requires plenty of data, I needed about thousands of simulations of varying geometries so that it can predict simulation of unknown geometries. For this purpose, I changed the position of step from near the inlet region to the outlet i.e.  0.1 < x < 2.9, ranging it height 0.1 < y < 0.4. This is done by a python script where each step are described with comments. Making the dataset contains the following steps:
+As deep learning requires plenty of data, I needed about thousands of simulations of varying geometries so that it can predict simulation of unknown geometries. For this purpose, I changed the position of step from near the inlet region to the outlet i.e. 0.1 < x < 2.9, ranging it height 0.1 < y < 0.4. This is done by a python script where each step are described with comments. Making the dataset contains the following steps:
 
 1. Make 1500 random coordinates within some constraints.
 2. Remove previous simulation file (if it exists).
 3. Copy the OpenFOAM _forwardStep_ directory.
 4. Remove _blockMeshDict_ file from system directory.
 5. Execute `gen_blockMeshDict.py` to write _blockMeshDict_ and _cellInformation_ file.
-   _cellInformation_ consists cell number of three rectangle (x_cell * y_cell) (2D simulation).
+   _cellInformation_ consists cell number of three rectangle (x_cell \* y_cell) (2D simulation).
 6. Move _blockMeshDict_ file to system directory
 7. Move _cellInformation_ file to home directory
 8. Now execute `sim_cmd` from terminal.
@@ -56,11 +56,11 @@ After this almost 168GB simulation data has been generated. But all this data is
 > ##### DATASET SCALE
 >
 > The full OpenFOAM run produced ~168 GB of raw simulation output. Only velocity (`U_x`, `U_y`), pressure, and temperature per cell are extracted for training.
-{: .block-tip }
+> {: .block-tip }
 
 ### Convolutional LSTM
 
-For long-range dependencies in time-series data, [LSTM](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) has been using for a longer period of time, that has proven stable and powerful. But typical LSTM implementation deals with 1-D series data only, as fluid simulation involves with spatial data, I need to use a variant of LSTM, proposed by [X Shi et al.](https://arxiv.org/abs/1506.04214), where state-to-state and input-to-state transitions are replaced by convolution operation. The key equations are shown below, where ‘∗’ denotes the [convolution operator](https://en.wikipedia.org/wiki/Convolution) and ‘◦’ denotes the [Hadamard product](https://en.wikipedia.org/wiki/Hadamard_product_(matrices)):
+For long-range dependencies in time-series data, [LSTM](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) has been using for a longer period of time, that has proven stable and powerful. But typical LSTM implementation deals with 1-D series data only, as fluid simulation involves with spatial data, I need to use a variant of LSTM, proposed by [X Shi et al.](https://arxiv.org/abs/1506.04214), where state-to-state and input-to-state transitions are replaced by convolution operation. The key equations are shown below, where ‘∗’ denotes the [convolution operator](https://en.wikipedia.org/wiki/Convolution) and ‘◦’ denotes the [Hadamard product](<https://en.wikipedia.org/wiki/Hadamard_product_(matrices)>):
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
@@ -146,7 +146,7 @@ In the past few years, deep learning has exhibited unprecedented competency and 
 > ##### TAKEAWAY
 >
 > An image-based ConvLSTM, trained end-to-end on one CFD problem (supersonic flow over a forward-facing step), produces realistic, accurate predictions on geometries it has never seen — evidence that data-driven approaches are viable in computational fluid dynamics.
-{: .block-tip }
+> {: .block-tip }
 
 ### Related Research
 
