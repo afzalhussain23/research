@@ -11,6 +11,7 @@ cleanup() {
 trap cleanup EXIT
 
 cat >"${tmp_override}" <<'YAML'
+unpublished: true
 giscus:
   repo: alshedivat/al-folio
   repo_id: R_kgDOExample
