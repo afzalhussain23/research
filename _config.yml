@@ -14,7 +14,6 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text:
 keywords: foundation models, large language models, AI-native engineering, mechanical engineering, generative design, CAD, simulation, research notes
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚙️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://afzalhussain23.github.io # the base hostname & protocol for your site
 baseurl: /research # the subpath of your site, e.g. /blog/. Leave blank for root
