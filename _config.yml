@@ -3,16 +3,17 @@
 # -----------------------------------------------------------------------------
 
 title: Afzal Hussain # the website title (if blank, full name will be used instead)
+author: Afzal Hussain
 first_name: Afzal
 middle_name:
 last_name: Hussain
 contact_note: >
   The best way to reach me is by email at <a href="mailto:afzalhussain@iut-dhaka.edu">afzalhussain@iut-dhaka.edu</a>.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Research notes by Afzal Hussain on foundation models for AI-native engineering, with a focus on applications in mechanical engineering.
-  A working notebook of blog posts, paper explorations, and learning logs as the field evolves.
+  Research notes by Afzal Hussain on AI for computational engineering, scientific machine learning, simulation, and data-driven design optimization.
+  A working notebook of projects, paper explorations, implementation experiments, and learning logs toward PhD-level research in mechanical engineering.
 footer_text:
-keywords: foundation models, large language models, AI-native engineering, mechanical engineering, generative design, CAD, simulation, research notes
+keywords: AI for computational engineering, scientific machine learning, mechanical engineering, simulation, data-driven design optimization, foundation models, generative design, CAD, research notes
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 
 url: https://afzalhussain23.github.io # the base hostname & protocol for your site
@@ -100,7 +101,7 @@ max_width: 930px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+og_image: /assets/img/prof_pic.png # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
