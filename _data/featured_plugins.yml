@@ -26,20 +26,6 @@
   maintainer_contact: https://github.com/al-org-dev
   notes: Distill layout/runtime ownership.
 
-- name: al_folio_cv
-  repo_url: https://github.com/al-org-dev/al-folio-cv
-  gem_name: al_folio_cv
-  jekyll_plugin_id: al_folio_cv
-  owner: al-org-dev
-  license: See plugin repo LICENSE
-  compat:
-    al_folio_min: "1.0.0"
-    al_folio_max: "1.x"
-  status: bundled
-  demo_path: /cv/
-  maintainer_contact: https://github.com/al-org-dev
-  notes: CV layouts, includes, and rendering behavior.
-
 - name: al_folio_upgrade
   repo_url: https://github.com/al-org-dev/al-folio-upgrade
   gem_name: al_folio_upgrade
