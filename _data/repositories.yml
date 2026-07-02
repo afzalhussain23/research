@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - afzalhussain23
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - afzalhussain23/Image-Based-CFD-Using-Deep-Learning
+  - afzalhussain23/Machine-Learning-Coursera
+  - afzalhussain23/Using-Python-for-Research
+  - afzalhussain23/Competitive-Programming
