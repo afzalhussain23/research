@@ -7,20 +7,9 @@ nav: true
 nav_order: 4
 ---
 
-{% if site.data.repositories.github_users %}
-
-{% assign github_user = site.data.repositories.github_users | first %}
-{% endif %}
-
 {% if site.data.repositories.github_repos %}
 
-## GitHub Repositories
-
 <style>
-  .repositories .repository-profile {
-    margin-bottom: 1rem;
-  }
-
   .repositories .repository-card,
   .repositories .repository-card:hover {
     color: inherit;
@@ -47,13 +36,6 @@ nav_order: 4
 </style>
 
 <div class="repositories">
-  <p class="repository-profile">
-    <a href="https://github.com/{{ github_user }}" rel="external nofollow noopener" target="_blank">
-      <i class="fa-brands fa-github"></i>
-      github.com/{{ github_user }}
-    </a>
-  </p>
-
   <div class="row row-cols-1 row-cols-md-2">
     {% for repo in site.data.repositories.github_repos %}
       {% assign repo_parts = repo | split: "/" %}
