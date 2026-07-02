@@ -88,7 +88,7 @@ navbar_fixed: true
 footer_fixed: true
 search_enabled: true
 socials_in_search: true
-posts_in_search: true
+posts_in_search: false
 bib_search: true
 
 # Dimensions
@@ -133,7 +133,7 @@ pagination:
   enabled: true
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
@@ -280,6 +280,12 @@ plugins:
 # Sitemap settings
 defaults:
   - scope:
+      path: ""
+      type: "posts"
+    values:
+      published: false
+      sitemap: false
+  - scope:
       path: "assets"
     values:
       sitemap: false
@@ -315,7 +321,7 @@ terser:
 
 jekyll-archives:
   posts:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+    enabled: [] # blog archives are disabled while the blog feature is off.
     permalinks:
       year: "/blog/:year/"
       tags: "/blog/:type/:name/"
