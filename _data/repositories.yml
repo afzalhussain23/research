@@ -4,7 +4,7 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - afzalhussain23/Image-Based-CFD-Using-Deep-Learning
+  - afzalhussain23/Data-Driven-CFD-Surrogate-Modeling-Using-Deep-Learning
   - afzalhussain23/Machine-Learning-Coursera
   - afzalhussain23/Using-Python-for-Research
   - afzalhussain23/Competitive-Programming
