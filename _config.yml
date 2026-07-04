@@ -10,10 +10,10 @@ last_name: Hussain
 contact_note: >
   The best way to reach me is by email at <a href="mailto:afzalhussain@iut-dhaka.edu">afzalhussain@iut-dhaka.edu</a>.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Research notes by Afzal Hussain on AI for computational engineering, scientific machine learning, simulation, and data-driven design optimization.
+  Research notes by Afzal Hussain on AI-native engineering design, computational tools, simulation, optimization, and intelligent engineering systems.
   A working notebook of projects, paper explorations, implementation experiments, and learning logs toward PhD-level research in mechanical engineering.
 footer_text:
-keywords: AI for computational engineering, scientific machine learning, mechanical engineering, simulation, data-driven design optimization, foundation models, generative design, CAD, research notes
+keywords: AI-native engineering design, computational engineering, mechanical engineering, intelligent engineering systems, simulation, optimization, physical systems, research notes
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 
 url: https://afzalhussain23.github.io # the base hostname & protocol for your site

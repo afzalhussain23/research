@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:
+subtitle: AI-native engineering design | Mechanical Engineering PhD applicant
 
 profile:
   align: right
@@ -23,8 +23,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m Afzal Hussain, a mechanical engineering graduate with a strong background in programming and software development, looking for PhD opportunities in Mechanical Engineering for Spring or Fall 2027. My research interests center on AI for computational engineering, especially scientific machine learning for simulation, data-driven design optimization, and foundation models for engineering workflows.
+I’m Afzal Hussain, a mechanical engineering graduate with a strong background in programming and software development, seeking PhD opportunities in Mechanical Engineering for Spring or Fall 2027. My research direction is AI-native engineering design: developing intelligent computational tools that help engineers model, reason about, and improve complex physical systems.
 
-My background combines mechanical engineering training with several years of experience building reliable, data-intensive software systems. I am especially interested in developing computational tools that help engineers model, simulate, generate, and optimize complex physical systems more efficiently.
+My background connects mechanical engineering training with several years of experience building reliable, data-intensive software systems. I am interested in methods that combine engineering knowledge, learning-based models, and automation to support faster simulation, better design decisions, and more adaptive engineering workflows.
 
-This site collects my research projects, technical notes, paper explorations, implementation experiments, and learning logs as I develop toward PhD-level research in AI-assisted computational engineering and intelligent design systems.
+This site collects my research projects, technical notes, paper explorations, implementation experiments, and learning logs as I develop toward PhD-level research in intelligent computational tools for engineering design and physical systems.
