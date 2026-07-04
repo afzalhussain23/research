@@ -69,7 +69,7 @@ al_folio:
     channel: stable
     auto_apply_safe_fixes: false
 cv_pdf_nav:
-  enabled: true
+  enabled: false
   title: CV
   path: /assets/pdf/cv.pdf
   nav_order: 5
