@@ -2,8 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: AI-native engineering design | Mechanical Engineering PhD applicant
-
 profile:
   align: right
   image: prof_pic.png
@@ -23,8 +21,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m Afzal Hussain, a mechanical engineering graduate with a strong background in programming and software development, seeking PhD opportunities in Mechanical Engineering for Spring or Fall 2027. My research direction is AI-native engineering design: developing intelligent computational tools that help engineers model, reason about, and improve complex physical systems.
+I am Afzal Hussain, a mechanical engineering graduate with substantial experience in programming, software engineering, and computational systems. I am preparing to pursue a PhD in Mechanical Engineering in Spring or Fall 2027.
 
-My background connects mechanical engineering training with several years of experience building reliable, data-intensive software systems. I am interested in methods that combine engineering knowledge, learning-based models, and automation to support faster simulation, better design decisions, and more adaptive engineering workflows.
+My research interests lie at the intersection of mechanical engineering and AI, particularly the use of machine learning and large language models to support simulation, robotics, and engineering reasoning. This direction builds on both my engineering training and my experience developing reliable software systems.
 
-This site collects my research projects, technical notes, paper explorations, implementation experiments, and learning logs as I develop toward PhD-level research in intelligent computational tools for engineering design and physical systems.
+Through mechanical engineering, I developed a strong foundation in modeling, analysis, and design. My software development experience strengthened my ability to build data-intensive tools, structure complex technical systems, and turn ideas into robust implementations. Together, these experiences have shaped my interest in research that connects engineering knowledge with modern AI methods to improve how complex systems are simulated, designed, and understood.
+
+I am pursuing a PhD because I want to contribute to research that is technically rigorous, grounded in mechanical engineering, and useful for real engineering workflows. This site documents that progression through research projects, technical notes, paper explorations, implementation experiments, and learning logs.
+
+Outside of research, I spend time cycling, running, and playing chess. I have completed several half marathons and full marathons.
